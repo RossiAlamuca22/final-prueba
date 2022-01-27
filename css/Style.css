@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nova+Flat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #f7f1e3;
+    height: 100vh;
+}
+.container {
+    width: 900px;
+    height: 500px;
+    background-color:#7158e2;
+    position: absolute;
+    top: 150px;
+    left: 300px;
+    border-radius: 20px;
+}
+.img-slider{
+    width: 400px;
+    height: 500px;
+    border-right: 2px solid #4b4b4b;
+    border-radius: 20px;
+    /* border: 1px solid #000; */
+    background-color: #D6A2E8;
+}
+.img-slider h2{
+    position: relative;
+    top: 60px;
+    /* left: 50px; */
+    text-align: center;    
+    font-family: 'Lobster Two', cursive;
+    font-size: 2rem;
+}
+.img-slider p {
+    width: 300px;
+    text-align: center;
+    position: relative;
+    top: 100px;
+    left: 50px;
+    font-family: 'Nova Flat', cursive;
+    font-weight: 700;
+    font-size: 15px;
+    color: rgb(29, 27, 27);
+}
+.container .img-slider img {
+    width: 100%;
+    margin-top: 120px;
+}
+.content{
+    position: absolute;
+    top: 10px;
+    right:110px;
+    /* text-align: center; */
+}
+.content h2{
+    text-align: center;
+    font-size : 3rem;
+    font-family: 'Lexend', sans-serif;
+    padding: 20px 0px 10px 0px ;
+}
+.content p {
+    text-align: center;
+    font-family: 'Lexend', sans-serif;
+    font-size: 1rem;
+    padding:10px 0px;
+    color: rgb(243, 240, 240);
+}
+.content p  a {
+    text-decoration: none;
+    color:#D6A2E8;
+    font-weight: bolder;
+    font-size: 1.1rem;
+    border: none;
+}
+#form{
+    padding-top: 20px;
+    /* padding-left: 80px; */
+}
+#form label {
+    font-family: 'Comfortaa', cursive;
+    font-size: 0.9rem;
+    font-weight: 700;
+    padding: 10px 0px;
+    color: #D6A2E8;
+}
+#form input {
+    border:none;
+    border-bottom:3px solid #D6A2E8;
+    width: 350px;
+    margin: 10px 0px;
+    outline: none;
+    font-size: 1rem;
+    padding: 5px 0px;  
+    font-family: 'Comfortaa', cursive;
+    font-weight: 800;  
+}
+#btn{
+    text-align: center;
+    padding:10px 60px ;
+    position: relative;
+    left: 80px;
+    color: #7158e2;
+    background-color: #D6A2E8;
+    border:none;
+    outline: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-family: 'Comfortaa', cursive;
+}
+
+.other{
+    padding:10px 0px;
+}
+
+.other h3 {
+    font-size: 12px;
+    text-align: center;
+}
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icons img {
+    width:15%;
+    margin: 5px 10px;
+}
+.display{
+ display: none;
+ animation-delay: 8s;
+}
+.sign-img{
+    margin-top: 10px;
+}

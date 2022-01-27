@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INICIO DE SESION</title>
+    <link rel="stylesheet" href="./Style.css">
+</head>
+<body>
+    <div class="container" id="content01">
+        <div class="img-slider">
+            <h2>Bienvenidos a Serid app</h2>
+            <p>Empieza a compartir los mejores moementos de tu vida a traves de nuestra plataforma </p>
+                <img src="" alt="img">
+        </div>
+        <div class="content">
+            <h2>INICIO</h2>
+            <p>Ya tienes una cuenta?<a href="#" id="login">  inicia sesion </a></p>
+            <form id="form">
+                <label for="name" id="nlabel">Nombre</label> <br>
+                <input type="text" id="fname" placeholder="....  " autocomplete="off"> <br>
+                <label for="email" id="elabel">Email</label> <br>
+                <input type="email" id="eemail" placeholder="...@gmail.com" autocomplete="off"> <br>
+                <label for="password" id="plabel">Contraseña</label> <br>
+                <input type="password" name="password" id="lpassword"> <br>
+                <button type="submit"  onclick="UserRegister()" id="btn">Registrarse </button>
+            </form>
+            <div class="other">
+                <h3>Or Sign up with </h3>
+                <div class="icons">
+                    <img src="https://img.icons8.com/bubbles/50/000000/google-logo.png"/>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container display" id="content02">
+        <div class="img-slider">
+            <h2>Welcome to Flexicom</h2>
+            <p>we are a community together helping thousands of people out there who are struggling </p>
+                <img src="seridlogo.png" alt="img" class="sign-img">
+        </div>
+        <div class="content">
+            <h2>Get Started</h2>
+            <p>Don't have account ?  <a href="#" id="sign-up" >Sign up </a></p>
+            <form action="" id="form">
+                <label for="email" id="elabel">Email</label> <br>
+                <input type="email" id="eemail" placeholder="....@gmail.com" autocomplete="off"> <br>
+                <label for="password" id="plabel">Password</label> <br>
+                <input type="password" name="password" id="lpassword"> <br>
+                <button type="submit" onclick="SignIn()" id="btn1">Log-In </button>
+            </form>
+            <div class="other">
+                <h3>O registrarte con</h3>
+                <div class="icons">
+                    <img src="https://img.icons8.com/bubbles/50/000000/google-logo.png"/>   
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="card bg-dark text-white mx-auto" id="contenidoWeb" style="border-radius: 1rem; width: 800px;">
+        <div class="card-body"> 
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="server.js"></script>
+</body>
+</html>
